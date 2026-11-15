@@ -1,0 +1,12 @@
+test_generated_pcm_is_short_nonclipping_and_fades (test_sound.SoundTests.test_generated_pcm_is_short_nonclipping_and_fades) ... ok
+test_av_offset (test_verify.VerifyTests.test_av_offset) ... ok
+test_bad_dts (test_verify.VerifyTests.test_bad_dts) ... ok
+test_bad_key (test_verify.VerifyTests.test_bad_key) ... ok
+test_empty_audio (test_verify.VerifyTests.test_empty_audio) ... ok
+test_nan (test_verify.VerifyTests.test_nan) ... ok
+test_valid (test_verify.VerifyTests.test_valid) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.020s
+
+OK

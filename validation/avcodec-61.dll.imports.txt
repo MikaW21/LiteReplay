@@ -1,0 +1,4 @@
+DLL Name: KERNEL32.dll
+DLL Name: msvcrt.dll
+DLL Name: ole32.dll
+DLL Name: avutil-59.dll

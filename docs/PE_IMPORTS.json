@@ -1,0 +1,143 @@
+{
+  "LiteReplay.exe": {
+    "imports": [
+      "d3d11.dll",
+      "dxgi.dll",
+      "ole32.dll",
+      "AVRT.dll",
+      "COMCTL32.dll",
+      "SHELL32.dll",
+      "ADVAPI32.dll",
+      "dwmapi.dll",
+      "pdh.dll",
+      "WINMM.dll",
+      "comdlg32.dll",
+      "GDI32.dll",
+      "USER32.dll",
+      "avcodec-61.dll",
+      "avformat-61.dll",
+      "avutil-59.dll",
+      "swresample-5.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-private-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "KERNEL32.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-environment-l1-1-0.dll",
+      "api-ms-win-crt-time-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-multibyte-l1-1-0.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll"
+    ],
+    "format": "PE32+ executable (GUI) x86-64, for MS Windows, 6 sections",
+    "sha256": "f56a0b0ce50120392d02cd4974b9e2df126bb3f2debaabc19d089c99de4cc133",
+    "bytes": 869376
+  },
+  "LiteReplayProbe.exe": {
+    "imports": [
+      "d3d11.dll",
+      "dxgi.dll",
+      "ole32.dll",
+      "AVRT.dll",
+      "avcodec-61.dll",
+      "avformat-61.dll",
+      "avutil-59.dll",
+      "swresample-5.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-private-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "KERNEL32.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-environment-l1-1-0.dll",
+      "api-ms-win-crt-time-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-multibyte-l1-1-0.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll"
+    ],
+    "format": "PE32+ executable (console) x86-64, for MS Windows, 6 sections",
+    "sha256": "dae19180242c0a2b2ea6736919e827138959bca85973f76d93ac316f3c199d3c",
+    "bytes": 687616
+  },
+  "avcodec-61.dll": {
+    "imports": [
+      "avutil-59.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "api-ms-win-crt-utility-l1-1-0.dll",
+      "KERNEL32.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-environment-l1-1-0.dll",
+      "api-ms-win-crt-time-l1-1-0.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll"
+    ],
+    "format": "PE32+ executable (DLL) (GUI) x86-64, for MS Windows, 7 sections",
+    "sha256": "5790b67cde191adf14a9cbd37a22fa30df07bc0c428ef7ee7c3de67a7c53a216",
+    "bytes": 756736
+  },
+  "avformat-61.dll": {
+    "imports": [
+      "avcodec-61.dll",
+      "avutil-59.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll",
+      "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-private-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "api-ms-win-crt-utility-l1-1-0.dll",
+      "KERNEL32.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-environment-l1-1-0.dll",
+      "api-ms-win-crt-time-l1-1-0.dll"
+    ],
+    "format": "PE32+ executable (DLL) (GUI) x86-64, for MS Windows, 7 sections",
+    "sha256": "1cd30d99def0de47c144b6c4674885d083dc1dd44e0930560cd055ea52516136",
+    "bytes": 626176
+  },
+  "avutil-59.dll": {
+    "imports": [
+      "bcrypt.dll",
+      "api-ms-win-crt-convert-l1-1-0.dll",
+      "api-ms-win-crt-environment-l1-1-0.dll",
+      "api-ms-win-crt-filesystem-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-private-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll",
+      "api-ms-win-crt-time-l1-1-0.dll",
+      "api-ms-win-crt-utility-l1-1-0.dll",
+      "KERNEL32.dll",
+      "api-ms-win-crt-locale-l1-1-0.dll"
+    ],
+    "format": "PE32+ executable (DLL) (GUI) x86-64, for MS Windows, 11 sections",
+    "sha256": "955924e0c8f84b355a7fb24888093514b1f12c040061b458d54dee3dc51f3653",
+    "bytes": 859136
+  },
+  "swresample-5.dll": {
+    "imports": [
+      "avutil-59.dll",
+      "api-ms-win-crt-math-l1-1-0.dll",
+      "api-ms-win-crt-runtime-l1-1-0.dll",
+      "KERNEL32.dll",
+      "api-ms-win-crt-stdio-l1-1-0.dll",
+      "api-ms-win-crt-environment-l1-1-0.dll",
+      "api-ms-win-crt-heap-l1-1-0.dll",
+      "api-ms-win-crt-time-l1-1-0.dll",
+      "api-ms-win-crt-string-l1-1-0.dll"
+    ],
+    "format": "PE32+ executable (DLL) (GUI) x86-64, for MS Windows, 7 sections",
+    "sha256": "193e591ba69a61a5f7c85c14c939a38705a7900f80fe748793a19b8de381af67",
+    "bytes": 246272
+  }
+}

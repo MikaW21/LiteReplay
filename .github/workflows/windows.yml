@@ -1,0 +1,17 @@
+name: Windows compile and core tests
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        shell: pwsh
+        run: ./scripts/build-windows.ps1 -VcpkgRoot "$env:VCPKG_INSTALLATION_ROOT"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: LiteReplay-windows-x64
+          path: dist/LiteReplay-windows-x64.zip
+# CI runners have no suitable interactive NVIDIA desktop. Hardware tests are manual.

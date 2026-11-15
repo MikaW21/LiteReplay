@@ -1,0 +1,5 @@
+LiteReplay 2.0 UI Preview 1 — 2026-11-13
+Software by Yuzi_Lj
+Based on Phase3a HF2; native UI update.
+MinGW GCC 14 POSIX Windows x64 cross-build passed.
+Windows UI/DPI/hardware runtime not tested; no performance measurements.

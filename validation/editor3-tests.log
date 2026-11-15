@@ -1,0 +1,25 @@
+PASS audio_gain_tests
+PASS editor_progress_tests
+7 core test groups passed
+PASS core_tests
+EQ generation, headroom, device scoping, idempotent attach and safe removal passed
+PASS eq_tests
+Options migration and performance aggregation checks passed
+PASS options_monitor_tests
+PASS: policy, subscriptions, invalid settings, catalog rollback and bilingual key coverage
+PASS suite_tests
+PASS: stable identity, deduplication, Unicode/quote roundtrip, metadata, corruption rollback, limits and deletion
+PASS media_catalog_tests
+PASS: AMD/Intel/NVIDIA policy; explicit software consent; no silent codec change
+PASS encoder_policy_tests
+PASS thumbnail_cache_tests
+PASS screenshot_geometry_tests
+PASS clipboard_dib_tests
+Project roundtrip, validation, command construction and quoting passed
+PASS editor_core_tests
+PASS editor_history_tests
+PASS editor_preview_tests
+PASS editor_render_args
+PASS editor_copy_args
+PASS: mixed audio/no-audio sources, exact C++ args, trim/scale/concat, decode and overwrite protection
+PASS: exact C++ stream-copy arguments, output decode, codec unchanged and source/output protection; frame-accurate boundaries not claimed

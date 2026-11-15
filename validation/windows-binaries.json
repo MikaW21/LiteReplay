@@ -1,0 +1,142 @@
+[
+  {
+    "file": "bin/windows-x64/LiteReplay.exe",
+    "bytes": 1716224,
+    "sha256": "da2df2365e19609d8b83651f1c7a3ebc0e6f17a8db3ab30de5b937831064cefe",
+    "imports": [
+      "DLL Name: ADVAPI32.dll",
+      "DLL Name: AVRT.dll",
+      "DLL Name: COMCTL32.dll",
+      "DLL Name: comdlg32.dll",
+      "DLL Name: d3d11.dll",
+      "DLL Name: dwmapi.dll",
+      "DLL Name: dxgi.dll",
+      "DLL Name: GDI32.dll",
+      "DLL Name: KERNEL32.dll",
+      "DLL Name: msvcrt.dll",
+      "DLL Name: ole32.dll",
+      "DLL Name: pdh.dll",
+      "DLL Name: SHELL32.dll",
+      "DLL Name: USER32.dll",
+      "DLL Name: WINMM.dll",
+      "DLL Name: avcodec-61.dll",
+      "DLL Name: avformat-61.dll",
+      "DLL Name: avutil-59.dll",
+      "DLL Name: swresample-5.dll"
+    ]
+  },
+  {
+    "file": "bin/windows-x64/LiteReplayProbe.exe",
+    "bytes": 1284096,
+    "sha256": "1ed67604ab10d1affd9b3ec0868767d9cebdfb4d68de319e6add7c79cb032bc3",
+    "imports": [
+      "DLL Name: AVRT.dll",
+      "DLL Name: d3d11.dll",
+      "DLL Name: dxgi.dll",
+      "DLL Name: KERNEL32.dll",
+      "DLL Name: msvcrt.dll",
+      "DLL Name: ole32.dll",
+      "DLL Name: avcodec-61.dll",
+      "DLL Name: avformat-61.dll",
+      "DLL Name: avutil-59.dll",
+      "DLL Name: swresample-5.dll"
+    ]
+  },
+  {
+    "file": "bin/windows-x64/avcodec-61.dll",
+    "bytes": 5234214,
+    "sha256": "bc4832b2d7178cdb20bb553b7d8b5898828986bb44e6e1ac78b989eb4f467ad8",
+    "imports": [
+      "DLL Name: KERNEL32.dll",
+      "DLL Name: msvcrt.dll",
+      "DLL Name: ole32.dll",
+      "DLL Name: avutil-59.dll"
+    ]
+  },
+  {
+    "file": "bin/windows-x64/avformat-61.dll",
+    "bytes": 3840540,
+    "sha256": "0b6f323c5dbf3020aa59121a619704775a8dbc9d2a6bf46c24e74a884679d0f5",
+    "imports": [
+      "DLL Name: KERNEL32.dll",
+      "DLL Name: msvcrt.dll",
+      "DLL Name: avcodec-61.dll",
+      "DLL Name: avutil-59.dll"
+    ]
+  },
+  {
+    "file": "bin/windows-x64/avutil-59.dll",
+    "bytes": 3790143,
+    "sha256": "98fd22932c8852e3a735fdb4481f305f71ff9bbcd05b90dd377ae146f61403e9",
+    "imports": [
+      "DLL Name: bcrypt.dll",
+      "DLL Name: KERNEL32.dll",
+      "DLL Name: msvcrt.dll",
+      "DLL Name: libwinpthread-1.dll"
+    ]
+  },
+  {
+    "file": "bin/windows-x64/editor-tools/ffmpeg.exe",
+    "bytes": 7405568,
+    "sha256": "eebeaab8f92a423fb76374b584fcc583b0b44da92e22f98379e35b3ac7c5b735",
+    "imports": [
+      "DLL Name: SHELL32.dll",
+      "DLL Name: api-ms-win-crt-convert-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-environment-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-heap-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-private-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-runtime-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-stdio-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-string-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-time-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-utility-l1-1-0.dll",
+      "DLL Name: KERNEL32.dll",
+      "DLL Name: api-ms-win-crt-filesystem-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-math-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-locale-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-conio-l1-1-0.dll",
+      "DLL Name: bcrypt.dll"
+    ]
+  },
+  {
+    "file": "bin/windows-x64/editor-tools/ffprobe.exe",
+    "bytes": 7359488,
+    "sha256": "823fac3cae1ff86865e2116bb95710c0d33dbe9f57477cd66513a2e5a26d6724",
+    "imports": [
+      "DLL Name: SHELL32.dll",
+      "DLL Name: api-ms-win-crt-convert-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-environment-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-heap-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-private-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-runtime-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-stdio-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-string-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-time-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-utility-l1-1-0.dll",
+      "DLL Name: KERNEL32.dll",
+      "DLL Name: api-ms-win-crt-filesystem-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-math-l1-1-0.dll",
+      "DLL Name: api-ms-win-crt-locale-l1-1-0.dll",
+      "DLL Name: bcrypt.dll"
+    ]
+  },
+  {
+    "file": "bin/windows-x64/libwinpthread-1.dll",
+    "bytes": 324451,
+    "sha256": "fc9f14551f6609dd51801daec2c194579d35345551ef84fe465cbdb3339c2a6f",
+    "imports": [
+      "DLL Name: KERNEL32.dll",
+      "DLL Name: msvcrt.dll"
+    ]
+  },
+  {
+    "file": "bin/windows-x64/swresample-5.dll",
+    "bytes": 444641,
+    "sha256": "cabb9ffdf68093ce1f77976646538146d026a3c20e113bf968b444db7007a566",
+    "imports": [
+      "DLL Name: KERNEL32.dll",
+      "DLL Name: msvcrt.dll",
+      "DLL Name: avutil-59.dll"
+    ]
+  }
+]

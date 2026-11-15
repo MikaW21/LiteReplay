@@ -1,0 +1,100 @@
+{
+  "baseline": "Phase3a HF2",
+  "files": [
+    {
+      "file": "src/audio.cpp",
+      "sha256": "9ef088f5e7c79f4eb88a4cf1329ae39ef21ca084a0609104cf6b41792e2a579c",
+      "state": "unchanged"
+    },
+    {
+      "file": "src/audio.hpp",
+      "sha256": "220924e417787ea18a85c83d5421cf0b3e6a56dc9baffd6209ad5c6415f98af9",
+      "state": "unchanged"
+    },
+    {
+      "file": "src/common.hpp",
+      "sha256": "931fe6a296f79c0b7cceed2f6dd1f6850059ba4b276776f92c86932ac8b28c8c",
+      "state": "unchanged"
+    },
+    {
+      "file": "src/core.hpp",
+      "sha256": "af0b35cfaec28bda9d5298b897ebc47716a55be7c93edcfff02aafeae2cf4a15",
+      "state": "unchanged"
+    },
+    {
+      "file": "src/engine.cpp",
+      "sha256": "f97b27901afb00909a7ed008a820e7ab350e3c6226c103c0ebfdc485ac0c1f5c",
+      "state": "unchanged"
+    },
+    {
+      "file": "src/engine.hpp",
+      "sha256": "4303861701663835feecbf48960fa7f2a75de67240c5aa14cc7f67d430b51427",
+      "state": "unchanged"
+    },
+    {
+      "file": "src/video.cpp",
+      "sha256": "906f412caa117d947dcbb672adfb1d9cb257e52405974be5e61ac0622bc96ba7",
+      "state": "unchanged"
+    },
+    {
+      "file": "src/video.hpp",
+      "sha256": "c9a912027136acab486cc332db63ecfd32f0aa7966f0e912c2b8a20e7d2eef02",
+      "state": "unchanged"
+    },
+    {
+      "file": "src/encoder_policy.hpp",
+      "sha256": "9de6a03dcedbffd3948a183a45d9db8cc6f39638c9499e0d6371e531ac41a7c4",
+      "state": "unchanged"
+    },
+    {
+      "file": "src/screenshot.hpp",
+      "sha256": "3a1d91fe1dbab00046768c26d8c1ad44c747e3a12ef17ab80723756e4c5eab94",
+      "state": "unchanged"
+    },
+    {
+      "file": "src/clipboard_dib.hpp",
+      "sha256": "90a8f724de8c696c47eb86946ceca6986e2822f60045a7b1022951b1a1a2f973",
+      "state": "unchanged"
+    },
+    {
+      "file": "src/editor/core.hpp",
+      "sha256": "d85e6e62bf4b0182e12107f7e9e261f51d72ce8faade6434efba29b786cf9a81",
+      "state": "unchanged"
+    },
+    {
+      "file": "src/editor/process.hpp",
+      "sha256": "98350fc90e2c558af0ea71a1a8857304fa3919f5cd619f56f2c4a568c6364833",
+      "state": "unchanged"
+    },
+    {
+      "file": "src/editor/preview_range.hpp",
+      "sha256": "a9d61346becc8c3aec3f282caa969b965f371420f1c5b8bd0f21317817bcad7f",
+      "state": "unchanged"
+    },
+    {
+      "file": "bin/windows-x64/libwinpthread-1.dll",
+      "sha256": "fc9f14551f6609dd51801daec2c194579d35345551ef84fe465cbdb3339c2a6f",
+      "state": "unchanged"
+    },
+    {
+      "file": "bin/windows-x64/swresample-5.dll",
+      "sha256": "cabb9ffdf68093ce1f77976646538146d026a3c20e113bf968b444db7007a566",
+      "state": "unchanged"
+    },
+    {
+      "file": "bin/windows-x64/avutil-59.dll",
+      "sha256": "98fd22932c8852e3a735fdb4481f305f71ff9bbcd05b90dd377ae146f61403e9",
+      "state": "unchanged"
+    },
+    {
+      "file": "bin/windows-x64/avcodec-61.dll",
+      "sha256": "bc4832b2d7178cdb20bb553b7d8b5898828986bb44e6e1ac78b989eb4f467ad8",
+      "state": "unchanged"
+    },
+    {
+      "file": "bin/windows-x64/avformat-61.dll",
+      "sha256": "0b6f323c5dbf3020aa59121a619704775a8dbc9d2a6bf46c24e74a884679d0f5",
+      "state": "unchanged"
+    }
+  ]
+}

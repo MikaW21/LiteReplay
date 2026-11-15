@@ -1,0 +1,7 @@
+build*/
+dist/
+.deps/
+vcpkg_installed/
+LiteReplayTest/
+*.partial
+__pycache__/

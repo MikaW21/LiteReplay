@@ -1,0 +1,330 @@
+[
+  {
+    "name": "core_tests-build",
+    "returncode": 0,
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-UNDEBUG",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-pthread",
+      "-I",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/src",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/tests/core_tests.cpp",
+      "-o",
+      "/tmp/tmp0wpjek_z/core_tests"
+    ]
+  },
+  {
+    "name": "core_tests",
+    "returncode": 0,
+    "command": [
+      "/tmp/tmp0wpjek_z/core_tests"
+    ]
+  },
+  {
+    "name": "options_monitor_tests-build",
+    "returncode": 0,
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-UNDEBUG",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-pthread",
+      "-I",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/src",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/tests/options_monitor_tests.cpp",
+      "-o",
+      "/tmp/tmp0wpjek_z/options_monitor_tests"
+    ]
+  },
+  {
+    "name": "options_monitor_tests",
+    "returncode": 0,
+    "command": [
+      "/tmp/tmp0wpjek_z/options_monitor_tests"
+    ]
+  },
+  {
+    "name": "eq_tests-build",
+    "returncode": 0,
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-UNDEBUG",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-pthread",
+      "-I",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/src",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/tests/eq_tests.cpp",
+      "-o",
+      "/tmp/tmp0wpjek_z/eq_tests"
+    ]
+  },
+  {
+    "name": "eq_tests",
+    "returncode": 0,
+    "command": [
+      "/tmp/tmp0wpjek_z/eq_tests"
+    ]
+  },
+  {
+    "name": "suite_tests-build",
+    "returncode": 0,
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-UNDEBUG",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-pthread",
+      "-I",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/src",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/tests/suite_tests.cpp",
+      "-o",
+      "/tmp/tmp0wpjek_z/suite_tests"
+    ]
+  },
+  {
+    "name": "suite_tests",
+    "returncode": 0,
+    "command": [
+      "/tmp/tmp0wpjek_z/suite_tests",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/languages"
+    ]
+  },
+  {
+    "name": "media_catalog_tests-build",
+    "returncode": 0,
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-UNDEBUG",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-pthread",
+      "-I",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/src",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/tests/media_catalog_tests.cpp",
+      "-o",
+      "/tmp/tmp0wpjek_z/media_catalog_tests"
+    ]
+  },
+  {
+    "name": "media_catalog_tests",
+    "returncode": 0,
+    "command": [
+      "/tmp/tmp0wpjek_z/media_catalog_tests"
+    ]
+  },
+  {
+    "name": "encoder_policy_tests-build",
+    "returncode": 0,
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-UNDEBUG",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-pthread",
+      "-I",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/src",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/tests/encoder_policy_tests.cpp",
+      "-o",
+      "/tmp/tmp0wpjek_z/encoder_policy_tests"
+    ]
+  },
+  {
+    "name": "encoder_policy_tests",
+    "returncode": 0,
+    "command": [
+      "/tmp/tmp0wpjek_z/encoder_policy_tests"
+    ]
+  },
+  {
+    "name": "thumbnail_cache_tests-build",
+    "returncode": 0,
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-UNDEBUG",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-pthread",
+      "-I",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/src",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/tests/thumbnail_cache_tests.cpp",
+      "-o",
+      "/tmp/tmp0wpjek_z/thumbnail_cache_tests"
+    ]
+  },
+  {
+    "name": "thumbnail_cache_tests",
+    "returncode": 0,
+    "command": [
+      "/tmp/tmp0wpjek_z/thumbnail_cache_tests"
+    ]
+  },
+  {
+    "name": "screenshot_geometry_tests-build",
+    "returncode": 0,
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-UNDEBUG",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-pthread",
+      "-I",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/src",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/tests/screenshot_geometry_tests.cpp",
+      "-o",
+      "/tmp/tmp0wpjek_z/screenshot_geometry_tests"
+    ]
+  },
+  {
+    "name": "screenshot_geometry_tests",
+    "returncode": 0,
+    "command": [
+      "/tmp/tmp0wpjek_z/screenshot_geometry_tests"
+    ]
+  },
+  {
+    "name": "clipboard_dib_tests-build",
+    "returncode": 0,
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-UNDEBUG",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-pthread",
+      "-I",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/src",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/tests/clipboard_dib_tests.cpp",
+      "-o",
+      "/tmp/tmp0wpjek_z/clipboard_dib_tests"
+    ]
+  },
+  {
+    "name": "clipboard_dib_tests",
+    "returncode": 0,
+    "command": [
+      "/tmp/tmp0wpjek_z/clipboard_dib_tests"
+    ]
+  },
+  {
+    "name": "editor_core_tests-build",
+    "returncode": 0,
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-UNDEBUG",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-pthread",
+      "-I",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/src",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/tests/editor_core_tests.cpp",
+      "-o",
+      "/tmp/tmp0wpjek_z/editor_core_tests"
+    ]
+  },
+  {
+    "name": "editor_core_tests",
+    "returncode": 0,
+    "command": [
+      "/tmp/tmp0wpjek_z/editor_core_tests"
+    ]
+  },
+  {
+    "name": "editor_history_tests-build",
+    "returncode": 0,
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-UNDEBUG",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-pthread",
+      "-I",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/src",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/tests/editor_history_tests.cpp",
+      "-o",
+      "/tmp/tmp0wpjek_z/editor_history_tests"
+    ]
+  },
+  {
+    "name": "editor_history_tests",
+    "returncode": 0,
+    "command": [
+      "/tmp/tmp0wpjek_z/editor_history_tests"
+    ]
+  },
+  {
+    "name": "editor_preview_tests-build",
+    "returncode": 0,
+    "command": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-UNDEBUG",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-pthread",
+      "-I",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/src",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/tests/editor_preview_tests.cpp",
+      "-o",
+      "/tmp/tmp0wpjek_z/editor_preview_tests"
+    ]
+  },
+  {
+    "name": "editor_preview_tests",
+    "returncode": 0,
+    "command": [
+      "/tmp/tmp0wpjek_z/editor_preview_tests"
+    ]
+  },
+  {
+    "name": "python-tests",
+    "returncode": 0,
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "/workspace/scratch/bd8342dcd0b6/work/LiteReplay-2.0-UI1/tests",
+      "-p",
+      "test_*.py",
+      "-v"
+    ]
+  }
+]

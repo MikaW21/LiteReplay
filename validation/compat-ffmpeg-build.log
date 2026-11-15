@@ -1,0 +1,468 @@
+install prefix            /usr/local
+source path               /workspace/scratch/bd8342dcd0b6/compat-build/FFmpeg-n7.1.1
+C compiler                /workspace/scratch/bd8342dcd0b6/phase1-toolchain/sysroot/usr/bin/x86_64-w64-mingw32-gcc-posix
+C library                 mingw64
+host C compiler           gcc
+host C library            glibc
+ARCH                      x86 (generic)
+big-endian                no
+runtime cpu detection     yes
+standalone assembly       no
+x86 assembler             nasm
+MMX enabled               yes
+MMXEXT enabled            yes
+3DNow! enabled            yes
+3DNow! extended enabled   yes
+SSE enabled               yes
+SSSE3 enabled             yes
+AESNI enabled             yes
+AVX enabled               yes
+AVX2 enabled              yes
+AVX-512 enabled           yes
+AVX-512ICL enabled        yes
+XOP enabled               yes
+FMA3 enabled              yes
+FMA4 enabled              yes
+i686 features enabled     yes
+CMOV is fast              yes
+EBX available             yes
+EBP available             yes
+debug symbols             yes
+strip symbols             yes
+optimize for size         no
+optimizations             yes
+static                    no
+shared                    yes
+postprocessing support    no
+network support           no
+threading support         w32threads
+safe bitstream reader     yes
+texi2html enabled         no
+perl enabled              yes
+pod2man enabled           yes
+makeinfo enabled          no
+makeinfo supports HTML    no
+xmllint enabled           no
+
+External libraries:
+mediafoundation
+
+External libraries providing hardware acceleration:
+amf                     d3d11va                 nvenc
+cuda                    ffnvcodec
+
+Libraries:
+avcodec                 avutil
+avformat                swresample
+
+Programs:
+
+Enabled decoders:
+
+Enabled encoders:
+aac                     h264_amf                hevc_amf
+av1_amf                 h264_mf                 hevc_nvenc
+av1_nvenc               h264_nvenc
+
+Enabled hwaccels:
+
+Enabled parsers:
+ac3
+
+Enabled demuxers:
+
+Enabled muxers:
+matroska                mov                     mp4
+
+Enabled protocols:
+file
+
+Enabled filters:
+
+Enabled bsfs:
+aac_adtstoasc           pgs_frame_merge         vp9_superframe
+
+Enabled indevs:
+
+Enabled outdevs:
+
+License: LGPL version 2.1 or later
+GEN	libavutil/libavutil.version
+GEN	libavcodec/libavcodec.version
+GEN	libavformat/libavformat.version
+GEN	libswresample/libswresample.version
+CC	libavformat/allformats.o
+CC	libavformat/av1.o
+CC	libavformat/avc.o
+CC	libavformat/avformat.o
+CC	libavformat/avio.o
+CC	libavformat/aviobuf.o
+CC	libavformat/avlanguage.o
+CC	libavformat/demux.o
+CC	libavformat/demux_utils.o
+CC	libavformat/dovi_isom.o
+CC	libavformat/dump.o
+CC	libavformat/dv.o
+CC	libavformat/evc.o
+CC	libavformat/file.o
+CC	libavformat/flacenc_header.o
+CC	libavformat/format.o
+CC	libavformat/hevc.o
+CC	libavformat/iamf.o
+CC	libavformat/iamf_writer.o
+CC	libavformat/id3v1.o
+CC	libavformat/id3v2.o
+CC	libavformat/isom.o
+CC	libavformat/isom_tags.o
+CC	libavformat/matroska.o
+CC	libavformat/matroskaenc.o
+CC	libavformat/metadata.o
+CC	libavformat/mov_chan.o
+CC	libavformat/movenc.o
+CC	libavformat/movenc_ttml.o
+CC	libavformat/movenccenc.o
+CC	libavformat/movenchint.o
+CC	libavformat/mux.o
+CC	libavformat/mux_utils.o
+CC	libavformat/nal.o
+CC	libavformat/options.o
+CC	libavformat/os_support.o
+CC	libavformat/protocols.o
+CC	libavformat/rawutils.o
+CC	libavformat/riff.o
+CC	libavformat/riffenc.o
+CC	libavformat/rtp.o
+CC	libavformat/rtpenc_chain.o
+CC	libavformat/sdp.o
+CC	libavformat/seek.o
+CC	libavformat/url.o
+CC	libavformat/utils.o
+CC	libavformat/version.o
+CC	libavformat/vorbiscomment.o
+CC	libavformat/vpcc.o
+CC	libavformat/vvc.o
+CC	libavformat/wv.o
+WINDRES	libavformat/avformatres.o
+/workspace/scratch/bd8342dcd0b6/compat-build/FFmpeg-n7.1.1/libavformat/avformatres.rc:24:10: fatal error: windows.h: No such file or directory
+   24 | #include <windows.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+/workspace/scratch/bd8342dcd0b6/phase1-toolchain/sysroot/usr/bin/x86_64-w64-mingw32-windres: preprocessing failed.
+make: *** [/workspace/scratch/bd8342dcd0b6/compat-build/FFmpeg-n7.1.1/ffbuild/common.mak:107: libavformat/avformatres.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: Entering directory '/workspace/scratch/bd8342dcd0b6/compat-build/ffmpeg'
+WINDRES	libavformat/avformatres.o
+CC	libavformat/log2_tab.o
+CC	libavformat/mpegaudiotabs.o
+CC	libavformat/to_upper4.o
+sh: 1: /workspace/scratch/bd8342dcd0b6/phase1-toolchain/sysroot/usr/bin/x86_64-w64-mingw32-gcc-posix -E -xc -DRC_INVOKED: not found
+/workspace/scratch/bd8342dcd0b6/phase1-toolchain/sysroot/usr/bin/x86_64-w64-mingw32-windres: preprocessing failed.
+make: *** [/workspace/scratch/bd8342dcd0b6/compat-build/FFmpeg-n7.1.1/ffbuild/common.mak:107: libavformat/avformatres.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: Leaving directory '/workspace/scratch/bd8342dcd0b6/compat-build/ffmpeg'
+make: Entering directory '/workspace/scratch/bd8342dcd0b6/compat-build/ffmpeg'
+WINDRES	libavformat/avformatres.o
+WINDRES	libavcodec/avcodecres.o
+CC	libavcodec/log2_tab.o
+CC	libavcodec/reverse.o
+WINDRES	libavutil/avutilres.o
+GEN	libavformat/libavformat.pc
+GEN	libavcodec/libavcodec.pc
+CC	libswresample/log2_tab.o
+WINDRES	libswresample/swresampleres.o
+GEN	libswresample/libswresample.pc
+GEN	libavutil/libavutil.pc
+GEN	libavformat/libavformat.ver
+CC	libavcodec/aac_ac3_parser.o
+CC	libavcodec/aaccoder.o
+CC	libavcodec/aacenc.o
+CC	libavcodec/aacenc_is.o
+CC	libavcodec/aacenc_ltp.o
+CC	libavcodec/aacenc_pred.o
+CC	libavcodec/aacenc_tns.o
+CC	libavcodec/aacenctab.o
+CC	libavcodec/aacpsy.o
+CC	libavcodec/aactab.o
+CC	libavcodec/ac3_channel_layout_tab.o
+CC	libavcodec/ac3_parser.o
+CC	libavcodec/ac3tab.o
+CC	libavcodec/adts_header.o
+CC	libavcodec/adts_parser.o
+CC	libavcodec/allcodecs.o
+CC	libavcodec/amfenc.o
+CC	libavcodec/amfenc_av1.o
+CC	libavcodec/amfenc_h264.o
+CC	libavcodec/amfenc_hevc.o
+CC	libavcodec/atsc_a53.o
+CC	libavcodec/audio_frame_queue.o
+CC	libavcodec/avcodec.o
+CC	libavcodec/avdct.o
+CC	libavcodec/avfft.o
+CC	libavcodec/bitstream.o
+CC	libavcodec/bitstream_filters.o
+CC	libavcodec/bsf.o
+CC	libavcodec/bsf/aac_adtstoasc.o
+CC	libavcodec/bsf/pgs_frame_merge.o
+CC	libavcodec/bsf/vp9_superframe.o
+CC	libavcodec/codec_desc.o
+CC	libavcodec/codec_par.o
+CC	libavcodec/d3d11va.o
+CC	libavcodec/decode.o
+CC	libavcodec/dirac.o
+CC	libavcodec/dv_profile.o
+CC	libavcodec/dxva2.o
+CC	libavcodec/encode.o
+CC	libavcodec/faandct.o
+CC	libavcodec/faanidct.o
+CC	libavcodec/fdctdsp.o
+CC	libavcodec/frame_thread_encoder.o
+CC	libavcodec/get_buffer.o
+CC	libavcodec/idctdsp.o
+src/libavcodec/dxva2.c: In function ‘ff_dxva2_get_surface_index’:
+src/libavcodec/dxva2.c:776:14: warning: unused variable ‘i’ [-Wunused-variable]
+  776 |     unsigned i;
+      |              ^
+CC	libavcodec/iirfilter.o
+CC	libavcodec/imgconvert.o
+CC	libavcodec/jfdctfst.o
+CC	libavcodec/jfdctint.o
+CC	libavcodec/jni.o
+CC	libavcodec/jrevdct.o
+src/libavcodec/jrevdct.c:215:28: warning: argument 1 of type ‘int16_t[64]’ {aka ‘short int[64]’} with mismatched bound [-Warray-parameter=]
+  215 | void ff_j_rev_dct(DCTBLOCK data)
+      |                   ~~~~~~~~~^~~~
+In file included from src/libavcodec/jrevdct.c:70:
+src/libavcodec/dct.h:30:28: note: previously declared as ‘int16_t *’ {aka ‘short int *’}
+   30 | void ff_j_rev_dct(int16_t *data);
+      |                   ~~~~~~~~~^~~~
+src/libavcodec/jrevdct.c:953:29: warning: argument 1 of type ‘int16_t[64]’ {aka ‘short int[64]’} with mismatched bound [-Warray-parameter=]
+  953 | void ff_j_rev_dct4(DCTBLOCK data)
+      |                    ~~~~~~~~~^~~~
+src/libavcodec/dct.h:31:29: note: previously declared as ‘int16_t *’ {aka ‘short int *’}
+   31 | void ff_j_rev_dct4(int16_t *data);
+      |                    ~~~~~~~~~^~~~
+src/libavcodec/jrevdct.c:1140:29: warning: argument 1 of type ‘int16_t[64]’ {aka ‘short int[64]’} with mismatched bound [-Warray-parameter=]
+ 1140 | void ff_j_rev_dct2(DCTBLOCK data){
+      |                    ~~~~~~~~~^~~~
+src/libavcodec/dct.h:32:29: note: previously declared as ‘int16_t *’ {aka ‘short int *’}
+   32 | void ff_j_rev_dct2(int16_t *data);
+      |                    ~~~~~~~~~^~~~
+src/libavcodec/jrevdct.c:1155:29: warning: argument 1 of type ‘int16_t[64]’ {aka ‘short int[64]’} with mismatched bound [-Warray-parameter=]
+ 1155 | void ff_j_rev_dct1(DCTBLOCK data){
+      |                    ~~~~~~~~~^~~~
+src/libavcodec/dct.h:33:29: note: previously declared as ‘int16_t *’ {aka ‘short int *’}
+   33 | void ff_j_rev_dct1(int16_t *data);
+      |                    ~~~~~~~~~^~~~
+CC	libavcodec/kbdwin.o
+CC	libavcodec/lcevcdec.o
+CC	libavcodec/lpc.o
+CC	libavcodec/mathtables.o
+CC	libavcodec/mediacodec.o
+CC	libavcodec/mf_utils.o
+CC	libavcodec/mfenc.o
+CC	libavcodec/mpeg12framerate.o
+CC	libavcodec/mpeg4audio.o
+CC	libavcodec/mpeg4audio_sample_rates.o
+CC	libavcodec/nvenc.o
+CC	libavcodec/nvenc_av1.o
+CC	libavcodec/nvenc_h264.o
+CC	libavcodec/nvenc_hevc.o
+CC	libavcodec/options.o
+CC	libavcodec/packet.o
+CC	libavcodec/parser.o
+CC	libavcodec/parsers.o
+CC	libavcodec/profiles.o
+CC	libavcodec/psymodel.o
+CC	libavcodec/pthread.o
+CC	libavcodec/pthread_frame.o
+CC	libavcodec/pthread_slice.o
+CC	libavcodec/qsv_api.o
+CC	libavcodec/raw.o
+CC	libavcodec/refstruct.o
+CC	libavcodec/simple_idct.o
+CC	libavcodec/sinewin.o
+CC	libavcodec/threadprogress.o
+CC	libavcodec/utils.o
+CC	libavcodec/version.o
+CC	libavcodec/vlc.o
+CC	libavcodec/vorbis_parser.o
+CC	libavcodec/x86/aacencdsp_init.o
+CC	libavcodec/x86/constants.o
+CC	libavcodec/x86/fdct.o
+CC	libavcodec/x86/fdctdsp_init.o
+CC	libavcodec/x86/idctdsp_init.o
+CC	libavcodec/x86/lpc_init.o
+CC	libavcodec/xiph.o
+CC	libavutil/adler32.o
+CC	libavutil/aes.o
+CC	libavutil/aes_ctr.o
+CC	libavutil/ambient_viewing_environment.o
+CC	libavutil/audio_fifo.o
+CC	libavutil/avsscanf.o
+In function ‘add_level’,
+    inlined from ‘add_level’ at src/libavcodec/vlc.c:457:17,
+    inlined from ‘add_level’ at src/libavcodec/vlc.c:457:17,
+    inlined from ‘add_level’ at src/libavcodec/vlc.c:457:17,
+    inlined from ‘vlc_multi_gen’ at src/libavcodec/vlc.c:508:5,
+    inlined from ‘ff_vlc_init_multi_from_lengths’ at src/libavcodec/vlc.c:564:11:
+src/libavcodec/vlc.c:443:36: warning: array subscript 3 is above array bounds of ‘uint16_t[3]’ {aka ‘short unsigned int[3]’} [-Warray-bounds=]
+  443 |             if (is16bit) info.val16[curlevel] = sym;
+      |                          ~~~~~~~~~~^~~~~~~~~~
+In file included from src/libavcodec/vlc.c:39:
+src/libavcodec/vlc.h: In function ‘ff_vlc_init_multi_from_lengths’:
+src/libavcodec/vlc.h:45:18: note: while referencing ‘val16’
+   45 |         uint16_t val16[VLC_MULTI_MAX_SYMBOLS / 2];
+      |                  ^~~~~
+In function ‘add_level’,
+    inlined from ‘add_level’ at src/libavcodec/vlc.c:457:17,
+    inlined from ‘add_level’ at src/libavcodec/vlc.c:457:17,
+    inlined from ‘add_level’ at src/libavcodec/vlc.c:457:17,
+    inlined from ‘add_level’ at src/libavcodec/vlc.c:457:17,
+    inlined from ‘vlc_multi_gen’ at src/libavcodec/vlc.c:508:5,
+    inlined from ‘ff_vlc_init_multi_from_lengths’ at src/libavcodec/vlc.c:564:11:
+src/libavcodec/vlc.c:443:36: warning: array subscript 4 is above array bounds of ‘uint16_t[3]’ {aka ‘short unsigned int[3]’} [-Warray-bounds=]
+  443 |             if (is16bit) info.val16[curlevel] = sym;
+      |                          ~~~~~~~~~~^~~~~~~~~~
+src/libavcodec/vlc.h: In function ‘ff_vlc_init_multi_from_lengths’:
+src/libavcodec/vlc.h:45:18: note: while referencing ‘val16’
+   45 |         uint16_t val16[VLC_MULTI_MAX_SYMBOLS / 2];
+      |                  ^~~~~
+In function ‘add_level’,
+    inlined from ‘add_level’ at src/libavcodec/vlc.c:457:17,
+    inlined from ‘add_level’ at src/libavcodec/vlc.c:457:17,
+    inlined from ‘add_level’ at src/libavcodec/vlc.c:457:17,
+    inlined from ‘add_level’ at src/libavcodec/vlc.c:457:17,
+    inlined from ‘add_level’ at src/libavcodec/vlc.c:457:17,
+    inlined from ‘vlc_multi_gen’ at src/libavcodec/vlc.c:508:5,
+    inlined from ‘ff_vlc_init_multi_from_lengths’ at src/libavcodec/vlc.c:564:11:
+src/libavcodec/vlc.c:443:36: warning: array subscript 5 is above array bounds of ‘uint16_t[3]’ {aka ‘short unsigned int[3]’} [-Warray-bounds=]
+  443 |             if (is16bit) info.val16[curlevel] = sym;
+      |                          ~~~~~~~~~~^~~~~~~~~~
+src/libavcodec/vlc.h: In function ‘ff_vlc_init_multi_from_lengths’:
+src/libavcodec/vlc.h:45:18: note: while referencing ‘val16’
+   45 |         uint16_t val16[VLC_MULTI_MAX_SYMBOLS / 2];
+      |                  ^~~~~
+CC	libavutil/avstring.o
+CC	libavutil/base64.o
+CC	libavutil/blowfish.o
+CC	libavutil/bprint.o
+CC	libavutil/buffer.o
+CC	libavutil/camellia.o
+CC	libavutil/cast5.o
+CC	libavutil/channel_layout.o
+CC	libavutil/cpu.o
+CC	libavutil/crc.o
+CC	libavutil/csp.o
+CC	libavutil/des.o
+CC	libavutil/detection_bbox.o
+CC	libavutil/dict.o
+CC	libavutil/display.o
+CC	libavutil/dovi_meta.o
+CC	libavutil/downmix_info.o
+CC	libavutil/encryption_info.o
+CC	libavutil/error.o
+CC	libavutil/eval.o
+CC	libavutil/executor.o
+CC	libavutil/fifo.o
+CC	libavutil/file.o
+CC	libavutil/file_open.o
+CC	libavutil/film_grain_params.o
+CC	libavutil/fixed_dsp.o
+CC	libavutil/float_dsp.o
+CC	libavutil/frame.o
+CC	libavutil/hash.o
+CC	libavutil/hdr_dynamic_metadata.o
+CC	libavutil/hdr_dynamic_vivid_metadata.o
+CC	libavutil/hmac.o
+CC	libavutil/hwcontext.o
+CC	libavutil/hwcontext_cuda.o
+CC	libavutil/hwcontext_d3d11va.o
+CC	libavutil/hwcontext_stub.o
+CC	libavutil/iamf.o
+CC	libavutil/imgutils.o
+CC	libavutil/integer.o
+CC	libavutil/intmath.o
+CC	libavutil/lfg.o
+CC	libavutil/lls.o
+CC	libavutil/log.o
+CC	libavutil/log2_tab.o
+CC	libavutil/lzo.o
+CC	libavutil/mastering_display_metadata.o
+CC	libavutil/mathematics.o
+CC	libavutil/md5.o
+CC	libavutil/mem.o
+CC	libavutil/murmur3.o
+CC	libavutil/opt.o
+CC	libavutil/parseutils.o
+CC	libavutil/pixdesc.o
+CC	libavutil/pixelutils.o
+CC	libavutil/random_seed.o
+CC	libavutil/rational.o
+CC	libavutil/rc4.o
+CC	libavutil/reverse.o
+CC	libavutil/ripemd.o
+CC	libavutil/samplefmt.o
+CC	libavutil/sha.o
+CC	libavutil/sha512.o
+CC	libavutil/slicethread.o
+CC	libavutil/spherical.o
+CC	libavutil/stereo3d.o
+CC	libavutil/tea.o
+CC	libavutil/threadmessage.o
+CC	libavutil/time.o
+CC	libavutil/timecode.o
+CC	libavutil/timestamp.o
+CC	libavutil/tree.o
+CC	libavutil/twofish.o
+CC	libavutil/tx.o
+CC	libavutil/tx_double.o
+CC	libavutil/tx_float.o
+CC	libavutil/tx_int32.o
+CC	libavutil/utils.o
+CC	libavutil/uuid.o
+CC	libavutil/version.o
+CC	libavutil/video_enc_params.o
+CC	libavutil/video_hint.o
+CC	libavutil/x86/cpu.o
+CC	libavutil/x86/fixed_dsp_init.o
+CC	libavutil/x86/float_dsp_init.o
+CC	libavutil/x86/imgutils_init.o
+CC	libavutil/x86/lls_init.o
+CC	libavutil/xga_font_data.o
+CC	libavutil/xtea.o
+CC	libswresample/audioconvert.o
+CC	libswresample/dither.o
+CC	libswresample/options.o
+CC	libswresample/rematrix.o
+CC	libswresample/resample.o
+CC	libswresample/resample_dsp.o
+CC	libswresample/swresample.o
+CC	libswresample/swresample_frame.o
+CC	libswresample/version.o
+CC	libswresample/x86/audio_convert_init.o
+CC	libswresample/x86/rematrix_init.o
+CC	libswresample/x86/resample_init.o
+GEN	libavcodec/libavcodec.ver
+GEN	libswresample/libswresample.ver
+GEN	libavutil/libavutil.ver
+EXTERN_PREFIX="" AR="/workspace/scratch/bd8342dcd0b6/phase1-toolchain/sysroot/usr/bin/x86_64-w64-mingw32-ar" NM="/workspace/scratch/bd8342dcd0b6/phase1-toolchain/sysroot/usr/bin/x86_64-w64-mingw32-nm" /workspace/scratch/bd8342dcd0b6/compat-build/FFmpeg-n7.1.1/compat/windows/makedef libavutil/libavutil.ver libavutil/adler32.o libavutil/aes.o libavutil/aes_ctr.o libavutil/ambient_viewing_environment.o libavutil/audio_fifo.o libavutil/avsscanf.o libavutil/avstring.o libavutil/base64.o libavutil/blowfish.o libavutil/bprint.o libavutil/buffer.o libavutil/camellia.o libavutil/cast5.o libavutil/channel_layout.o libavutil/cpu.o libavutil/crc.o libavutil/csp.o libavutil/des.o libavutil/detection_bbox.o libavutil/dict.o libavutil/display.o libavutil/dovi_meta.o libavutil/downmix_info.o libavutil/encryption_info.o libavutil/error.o libavutil/eval.o libavutil/executor.o libavutil/fifo.o libavutil/file.o libavutil/file_open.o libavutil/film_grain_params.o libavutil/fixed_dsp.o libavutil/float_dsp.o libavutil/frame.o libavutil/hash.o libavutil/hdr_dynamic_metadata.o libavutil/hdr_dynamic_vivid_metadata.o libavutil/hmac.o libavutil/hwcontext.o libavutil/hwcontext_cuda.o libavutil/hwcontext_d3d11va.o libavutil/hwcontext_stub.o libavutil/iamf.o libavutil/imgutils.o libavutil/integer.o libavutil/intmath.o libavutil/lfg.o libavutil/lls.o libavutil/log.o libavutil/log2_tab.o libavutil/lzo.o libavutil/mastering_display_metadata.o libavutil/mathematics.o libavutil/md5.o libavutil/mem.o libavutil/murmur3.o libavutil/opt.o libavutil/parseutils.o libavutil/pixdesc.o libavutil/pixelutils.o libavutil/random_seed.o libavutil/rational.o libavutil/rc4.o libavutil/reverse.o libavutil/ripemd.o libavutil/samplefmt.o libavutil/sha.o libavutil/sha512.o libavutil/slicethread.o libavutil/spherical.o libavutil/stereo3d.o libavutil/tea.o libavutil/threadmessage.o libavutil/time.o libavutil/timecode.o libavutil/timestamp.o libavutil/tree.o libavutil/twofish.o libavutil/tx.o libavutil/tx_double.o libavutil/tx_float.o libavutil/tx_int32.o libavutil/utils.o libavutil/uuid.o libavutil/version.o libavutil/video_enc_params.o libavutil/video_hint.o libavutil/x86/cpu.o libavutil/x86/fixed_dsp_init.o libavutil/x86/float_dsp_init.o libavutil/x86/imgutils_init.o libavutil/x86/lls_init.o libavutil/xga_font_data.o libavutil/xtea.o libavutil/avutilres.o > libavutil/avutil-59.def
+LD	libavutil/avutil-59.dll
+dlltool -m i386:x86-64 -d libavutil/avutil-59.def -l libavutil/avutil.lib -D avutil-59.dll
+make: dlltool: No such file or directory
+make: [/workspace/scratch/bd8342dcd0b6/compat-build/FFmpeg-n7.1.1/ffbuild/library.mak:120: libavutil/avutil-59.dll] Error 127 (ignored)
+EXTERN_PREFIX="" AR="/workspace/scratch/bd8342dcd0b6/phase1-toolchain/sysroot/usr/bin/x86_64-w64-mingw32-ar" NM="/workspace/scratch/bd8342dcd0b6/phase1-toolchain/sysroot/usr/bin/x86_64-w64-mingw32-nm" /workspace/scratch/bd8342dcd0b6/compat-build/FFmpeg-n7.1.1/compat/windows/makedef libavcodec/libavcodec.ver libavcodec/aac_ac3_parser.o libavcodec/aaccoder.o libavcodec/aacenc.o libavcodec/aacenc_is.o libavcodec/aacenc_ltp.o libavcodec/aacenc_pred.o libavcodec/aacenc_tns.o libavcodec/aacenctab.o libavcodec/aacpsy.o libavcodec/aactab.o libavcodec/ac3_channel_layout_tab.o libavcodec/ac3_parser.o libavcodec/ac3tab.o libavcodec/adts_header.o libavcodec/adts_parser.o libavcodec/allcodecs.o libavcodec/amfenc.o libavcodec/amfenc_av1.o libavcodec/amfenc_h264.o libavcodec/amfenc_hevc.o libavcodec/atsc_a53.o libavcodec/audio_frame_queue.o libavcodec/avcodec.o libavcodec/avdct.o libavcodec/avfft.o libavcodec/bitstream.o libavcodec/bitstream_filters.o libavcodec/bsf.o libavcodec/bsf/aac_adtstoasc.o libavcodec/bsf/pgs_frame_merge.o libavcodec/bsf/vp9_superframe.o libavcodec/codec_desc.o libavcodec/codec_par.o libavcodec/d3d11va.o libavcodec/decode.o libavcodec/dirac.o libavcodec/dv_profile.o libavcodec/dxva2.o libavcodec/encode.o libavcodec/faandct.o libavcodec/faanidct.o libavcodec/fdctdsp.o libavcodec/frame_thread_encoder.o libavcodec/get_buffer.o libavcodec/idctdsp.o libavcodec/iirfilter.o libavcodec/imgconvert.o libavcodec/jfdctfst.o libavcodec/jfdctint.o libavcodec/jni.o libavcodec/jrevdct.o libavcodec/kbdwin.o libavcodec/lcevcdec.o libavcodec/lpc.o libavcodec/mathtables.o libavcodec/mediacodec.o libavcodec/mf_utils.o libavcodec/mfenc.o libavcodec/mpeg12framerate.o libavcodec/mpeg4audio.o libavcodec/mpeg4audio_sample_rates.o libavcodec/nvenc.o libavcodec/nvenc_av1.o libavcodec/nvenc_h264.o libavcodec/nvenc_hevc.o libavcodec/options.o libavcodec/packet.o libavcodec/parser.o libavcodec/parsers.o libavcodec/profiles.o libavcodec/psymodel.o libavcodec/pthread.o libavcodec/pthread_frame.o libavcodec/pthread_slice.o libavcodec/qsv_api.o libavcodec/raw.o libavcodec/refstruct.o libavcodec/simple_idct.o libavcodec/sinewin.o libavcodec/threadprogress.o libavcodec/utils.o libavcodec/version.o libavcodec/vlc.o libavcodec/vorbis_parser.o libavcodec/x86/aacencdsp_init.o libavcodec/x86/constants.o libavcodec/x86/fdct.o libavcodec/x86/fdctdsp_init.o libavcodec/x86/idctdsp_init.o libavcodec/x86/lpc_init.o libavcodec/xiph.o libavcodec/avcodecres.o libavcodec/log2_tab.o libavcodec/reverse.o > libavcodec/avcodec-61.def
+EXTERN_PREFIX="" AR="/workspace/scratch/bd8342dcd0b6/phase1-toolchain/sysroot/usr/bin/x86_64-w64-mingw32-ar" NM="/workspace/scratch/bd8342dcd0b6/phase1-toolchain/sysroot/usr/bin/x86_64-w64-mingw32-nm" /workspace/scratch/bd8342dcd0b6/compat-build/FFmpeg-n7.1.1/compat/windows/makedef libswresample/libswresample.ver libswresample/audioconvert.o libswresample/dither.o libswresample/options.o libswresample/rematrix.o libswresample/resample.o libswresample/resample_dsp.o libswresample/swresample.o libswresample/swresample_frame.o libswresample/version.o libswresample/x86/audio_convert_init.o libswresample/x86/rematrix_init.o libswresample/x86/resample_init.o libswresample/log2_tab.o libswresample/swresampleres.o > libswresample/swresample-5.def
+LD	libswresample/swresample-5.dll
+dlltool -m i386:x86-64 -d libswresample/swresample-5.def -l libswresample/swresample.lib -D swresample-5.dll
+make: dlltool: No such file or directory
+make: [/workspace/scratch/bd8342dcd0b6/compat-build/FFmpeg-n7.1.1/ffbuild/library.mak:120: libswresample/swresample-5.dll] Error 127 (ignored)
+LD	libavcodec/avcodec-61.dll
+dlltool -m i386:x86-64 -d libavcodec/avcodec-61.def -l libavcodec/avcodec.lib -D avcodec-61.dll
+make: dlltool: No such file or directory
+make: [/workspace/scratch/bd8342dcd0b6/compat-build/FFmpeg-n7.1.1/ffbuild/library.mak:120: libavcodec/avcodec-61.dll] Error 127 (ignored)
+EXTERN_PREFIX="" AR="/workspace/scratch/bd8342dcd0b6/phase1-toolchain/sysroot/usr/bin/x86_64-w64-mingw32-ar" NM="/workspace/scratch/bd8342dcd0b6/phase1-toolchain/sysroot/usr/bin/x86_64-w64-mingw32-nm" /workspace/scratch/bd8342dcd0b6/compat-build/FFmpeg-n7.1.1/compat/windows/makedef libavformat/libavformat.ver libavformat/allformats.o libavformat/av1.o libavformat/avc.o libavformat/avformat.o libavformat/avio.o libavformat/aviobuf.o libavformat/avlanguage.o libavformat/demux.o libavformat/demux_utils.o libavformat/dovi_isom.o libavformat/dump.o libavformat/dv.o libavformat/evc.o libavformat/file.o libavformat/flacenc_header.o libavformat/format.o libavformat/hevc.o libavformat/iamf.o libavformat/iamf_writer.o libavformat/id3v1.o libavformat/id3v2.o libavformat/isom.o libavformat/isom_tags.o libavformat/matroska.o libavformat/matroskaenc.o libavformat/metadata.o libavformat/mov_chan.o libavformat/movenc.o libavformat/movenc_ttml.o libavformat/movenccenc.o libavformat/movenchint.o libavformat/mux.o libavformat/mux_utils.o libavformat/nal.o libavformat/options.o libavformat/os_support.o libavformat/protocols.o libavformat/rawutils.o libavformat/riff.o libavformat/riffenc.o libavformat/rtp.o libavformat/rtpenc_chain.o libavformat/sdp.o libavformat/seek.o libavformat/url.o libavformat/utils.o libavformat/version.o libavformat/vorbiscomment.o libavformat/vpcc.o libavformat/vvc.o libavformat/wv.o libavformat/avformatres.o libavformat/log2_tab.o libavformat/mpegaudiotabs.o libavformat/to_upper4.o > libavformat/avformat-61.def
+LD	libavformat/avformat-61.dll
+dlltool -m i386:x86-64 -d libavformat/avformat-61.def -l libavformat/avformat.lib -D avformat-61.dll
+make: dlltool: No such file or directory
+make: [/workspace/scratch/bd8342dcd0b6/compat-build/FFmpeg-n7.1.1/ffbuild/library.mak:120: libavformat/avformat-61.dll] Error 127 (ignored)
+make: Leaving directory '/workspace/scratch/bd8342dcd0b6/compat-build/ffmpeg'

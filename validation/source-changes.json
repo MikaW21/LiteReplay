@@ -1,0 +1,30 @@
+{
+  "baseline": "Phase3a HF2",
+  "files": [
+    {
+      "file": "src/app.cpp",
+      "state": "modified",
+      "sha256": "60112ce5d903f30843d5bee20e34a644125f956d57f131a846d27d665d42ece9"
+    },
+    {
+      "file": "src/editor_panel.hpp",
+      "state": "modified",
+      "sha256": "a0ba94d615e51ab37ebd00b011adec92ea04e61e1caf0a17dd921f74c004a7a7"
+    },
+    {
+      "file": "src/ui_theme.hpp",
+      "state": "new",
+      "sha256": "4c38132b68fb90167c423932aff95cbf8986d88e351504c9a466ae7db0eaac33"
+    },
+    {
+      "file": "languages/en-US.lang",
+      "state": "modified",
+      "sha256": "16af5f1f5b9c0e6987884bd2b415b47e8ea68420ef3b45d05e4f266b269d8b10"
+    },
+    {
+      "file": "languages/zh-CN.lang",
+      "state": "modified",
+      "sha256": "8e44af8f2600991df583815d9ac0554ada82023a180a5af39585dd3e94593ffb"
+    }
+  ]
+}

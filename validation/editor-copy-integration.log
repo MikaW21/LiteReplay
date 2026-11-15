@@ -1,0 +1,1 @@
+PASS: exact C++ stream-copy arguments, output decode, codec unchanged and source/output protection; frame-accurate boundaries not claimed
